@@ -16,4 +16,4 @@ matrix:
 install: "pip3 install -r requirements.txt"
 
 script:
-  - ./manage.py test
+  - ./manage.py
