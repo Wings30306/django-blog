@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 
-if development:
+if development || !os.getenv("DATABASE_URL"):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
