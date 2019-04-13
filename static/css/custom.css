@@ -42,10 +42,12 @@ h1, h1 a {
 }
 
 .navbar-brand{
+    display: block;
     padding: 10px 10px;
 }
 
 .navbar-brand>img{
+    display: inline-block;
     height: 100%;
 }
 
